@@ -1,9 +1,32 @@
-.up{
+body {
+  height: 100vh;
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  background-color: black;
+  padding: 4em 1em;
+  width: 500px;
+  background-color: lightblue;
+  transition: 2s;
+  border-radius: 6em;
+}
+
+.main:hover {
+  background-color: black;
+  transform: rotate(360deg);
+}
+
+.up {
   width: 300px;
   margin: auto;
   margin-top: 0px;
 }
-.head{
+
+.head {
   margin: auto;
   background-color: green;
   width: 300px;
@@ -12,45 +35,44 @@
   margin-top: 20px;
 }
 
-.ls{
+.ls {
   float: left;
   width: 10px;
-  height: 30px;
+  height: 3em;
   background-color: green;
   margin: auto;
   transform: rotate(-30deg);
-  border-radius: 5px 5px 0px 0px ;
+  border-radius: 5px 5px 0px 0px;
   position: relative;
   top: -10px;
   left: 50px;
 }
 
-.rs{
+.rs {
   float: right;
-  width:  10px;
-  height: 30px;
+  width: 10px;
+  height: 3em;
   background-color: green;
   margin: auto;
   transform: rotate(30deg);
-  border-radius: 5px 5px 0px 0px ;
+  border-radius: 5px 5px 0px 0px;
   position: relative;
   top: -10px;
   right: 50px;
 }
 
-
-.le{
+.le {
   width: 10px;
   height: 10px;
   border: 1px solid black;
-  float:left ;
+  float: left;
   margin-left: 70px;
   margin-top: 80px;
   border-radius: 5px;
   background-color: white;
 }
 
-.re{
+.re {
   width: 10px;
   height: 10px;
   border: 1px solid black;
@@ -61,17 +83,17 @@
   background-color: white;
 }
 
-.lh{
+.lh {
   width: 50px;
   height: 250px;
   float: left;
-  background-color:green;
+  background-color: green;
   border-radius: 25px;
   position: relative;
   left: -55px;
 }
 
-.rh{
+.rh {
   width: 45px;
   height: 250px;
   float: right;
@@ -81,7 +103,7 @@
   right: -55px;
 }
 
-.stom{
+.stom {
   width: 300px;
   height: 300px;
   background-color: green;
@@ -90,13 +112,13 @@
   border-radius: 0px 0px 25px 25px;
 }
 
-.down{
+.down {
   width: 250px;
-  height: 300px;
+  /* height: 300px; */
   margin: auto;
 }
 
-.lg{
+.lg {
   background-color: green;
   float: left;
   width: 50px;
@@ -105,25 +127,11 @@
   border-radius: 0px 0px 25px 25px;
 }
 
-.rg{
+.rg {
   background-color: green;
   float: right;
   width: 50px;
   height: 200px;
   margin-top: 5px;
   border-radius: 0px 0px 25px 25px;
-}
-.main{
-  background-color: black;
-  margin: auto;
-  width: 500px;
-  height: 800px;
-  background-color: lightblue;
-  transition: 2s;
-  border-radius: 100px;
-}
-
-.main:hover{
-  background-color: black;
-  transform: rotate(360deg);
 }
