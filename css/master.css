@@ -7,12 +7,12 @@ body {
 	justify-content: center;
 }
 
-.main {
+.android {
 	width: 500px;
 	border-radius: 6em;
 }
 
-.up {
+.ear {
 	width: 300px;
 	margin: auto;
 	margin-top: 0px;
@@ -27,7 +27,7 @@ body {
 	margin-top: 20px;
 }
 
-.ls {
+.left__ear {
 	float: left;
 	width: 10px;
 	height: 3em;
@@ -40,7 +40,7 @@ body {
 	left: 50px;
 }
 
-.rs {
+.right__ear {
 	float: right;
 	width: 10px;
 	height: 3em;
@@ -53,7 +53,7 @@ body {
 	right: 50px;
 }
 
-.le {
+.left__eye {
 	width: 10px;
 	height: 10px;
 	border: 1px solid #78c257;
@@ -64,7 +64,7 @@ body {
 	background-color: white;
 }
 
-.re {
+.right__eye {
 	width: 10px;
 	height: 10px;
 	border: 1px solid #78c257;
@@ -75,7 +75,7 @@ body {
 	background-color: white;
 }
 
-.lh {
+.left__hand {
 	width: 50px;
 	height: 250px;
 	float: left;
@@ -85,7 +85,7 @@ body {
 	left: -55px;
 }
 
-.rh {
+.right__hand {
 	width: 45px;
 	height: 250px;
 	float: right;
@@ -95,7 +95,7 @@ body {
 	right: -55px;
 }
 
-.stom {
+.stomach {
 	width: 300px;
 	height: 300px;
 	background-color: #78c257;
@@ -104,12 +104,12 @@ body {
 	border-radius: 0px 0px 25px 25px;
 }
 
-.down {
+.legs {
 	width: 250px;
 	margin: auto;
 }
 
-.lg {
+.left__leg {
 	background-color: #78c257;
 	float: left;
 	width: 50px;
@@ -118,7 +118,7 @@ body {
 	border-radius: 0px 0px 25px 25px;
 }
 
-.rg {
+.right__leg {
 	background-color: #78c257;
 	float: right;
 	width: 50px;
@@ -126,4 +126,3 @@ body {
 	margin-top: 5px;
 	border-radius: 0px 0px 25px 25px;
 }
-/* TODO: rename classes names with some meaningful word */
